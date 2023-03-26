@@ -1,5 +1,9 @@
-/* FImport Functions */
+/* Import Functions */
 @use "sass:math";
+
+/* Import Files */
+
+@import './dustEffect.scss';
 
 /* Frontend Color Palette */
 /* -----------------------------------------------------------------*/
@@ -300,4 +304,10 @@ ul li{
 
   .box-shadow0{
     box-shadow: 10px 5px 20px $g-quaternary-color;
+  }
+
+  .flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }

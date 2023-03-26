@@ -1,0 +1,9 @@
+
+<template lang="pug">
+.bottom-particles
+  - var n = 1;
+  - var bubbles = 200;
+  while n <= bubbles 
+    .bubble
+    - n++;
+</template>
