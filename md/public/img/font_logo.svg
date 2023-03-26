@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="264.31216mm"
+   height="22.955879mm"
+   viewBox="0 0 264.31216 22.955879"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="font_logo.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid283"
+       originx="0"
+       originy="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-10.336862,-85.583033)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;font-family:'Plane Crash';-inkscape-font-specification:'Plane Crash';fill:#000000;stroke-width:0.264583"
+       x="9.3722343"
+       y="102.94636"
+       id="text119"><tspan
+         sodipodi:role="line"
+         id="tspan117"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;font-family:'Plane Crash';-inkscape-font-specification:'Plane Crash';stroke-width:0.264583"
+         x="9.3722343"
+         y="102.94636">mightness</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:19.7556px;fill:#000000;stroke-width:0.264583"
+       x="149.2999"
+       y="102.55346"
+       id="text173"><tspan
+         sodipodi:role="line"
+         id="tspan171"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.7556px;font-family:'glimmer of light';-inkscape-font-specification:'glimmer of light, ';stroke-width:0.264583"
+         x="149.2999"
+         y="102.55346">Developer</tspan></text>
+  </g>
+</svg>

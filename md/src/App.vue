@@ -4,17 +4,35 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <header class="fixed-top">
-      <nav class="navbar bg-g-primary-color justify-content-between ">
+  <header class="sticky-top box-shadow0">
+      <nav class="navbar bg-c-navbar justify-content-between ">
       <div class="container-fluid">
-        <div class="d-flex justify-content-center text-center bg-primary rounded-circle">
+        <div class="d-flex justify-content-center text-center  rounded-circle" >
           <RouterLink class="navbar-brand" to="/">
-            <img src="../public/img/m_logo.png" alt="logo mightness developers" style="width: 50px; height: 50px;">
+            <img src="../public/img/md_logo_nav.png" alt="logo mightness developers" style="width: 50px; height: 50px;">
           </RouterLink>
         </div>
-        <div class="row-6">
-        <RouterLink class="text-white" to="/about">About</RouterLink>
-      </div>
+        <div class="d-flex row-6">
+          <div class="col ms-2">
+            <RouterLink class="text-white" to="/about">About</RouterLink>
+          </div>
+          <div class="col ms-2">
+            <RouterLink class="text-white" to="/skills">Skills</RouterLink>
+          </div>
+          <div class="col ms-2">
+            <RouterLink class="text-white" to="/projects">Projects</RouterLink>
+          </div>
+          <div class="col ms-2">
+            <RouterLink class="text-white" to="/templates">Templates</RouterLink>
+          </div>
+          <div class="col ms-2">
+            <RouterLink class="text-white" to="/donate">Donate</RouterLink>
+          </div>
+          <div class="col ms-2">
+            <RouterLink class="text-white" to="/contacts">Contacts</RouterLink>
+          </div>
+
+        </div>
         
       </div>
     </nav>
@@ -27,7 +45,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <div class="container-fluid">
         <div class="rounded-circle g-primary-color">
           <RouterLink class="navbar-brand" to="/">
-            <img src="../../public/img/might_logo.png" alt="Mightness developers logo" class="rainbow" style="width: 100px; height: auto;">
+            <img src="../../public/img/md_logo_footer.png" alt="Mightness developers logo" class="rainbow" style="width: 100px; height: auto;">
           </RouterLink>
         </div>
         <div class="row-6">

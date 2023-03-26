@@ -62,11 +62,7 @@ $m-fifth-color: #370058;
   /* -------------------------------------------------------------------------- */
   /* Generic Gradient*/
   .bg-g-primary-color{background-color: $g-primary-color;}
-
-  .bg-g-primary-color{background-color: $g-primary-color;}
-
   .bg-g-secondary-color{background-color: $g-secondary-color;}
-
   .bg-g-tertiary-color{background-color: $g-tertiary-color;}
   .bg-g-quaternary-color{background-color: $g-quaternary-color;}
   .bg-g-fifth-color{background-color: $g-fifth-color;}
@@ -75,6 +71,11 @@ $m-fifth-color: #370058;
   /* Matching Gradient */
   .bg-m-secondary-color{background-color: $m-secondary-color;}
   .bg-tertiary-color{background-color: $m-tertiary-color;}
+  
+ /* -----------------------------Bg gradient----------------------------------- */
+  .bg-c-navbar{background: linear-gradient($hg-secondary-color, $m-fifth-color);}
+  .bg-c-jumbo-home{background: linear-gradient($m-fifth-color, $gf-secondary-color);}
+  
 
 /* -----------------------------------------------------------------*/
 
@@ -294,5 +295,9 @@ ul li{
   /* -------------------------------------------------------------------------- */
   /*                                Other classes                               */
   /* -------------------------------------------------------------------------- */
+ 
 
-  
+
+  .box-shadow0{
+    box-shadow: 10px 5px 20px $g-quaternary-color;
+  }
