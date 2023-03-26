@@ -9,7 +9,6 @@ import PugComp from '../components/PugComp.vue'
         <h1 class="opacity1"><span class="font1 fsHero-1 text-white">Mightness</span><span class="font2 text-white">Developers</span></h1>
       </div>
       <PugComp />
-    
    </div> 
  </main>
 </template>
