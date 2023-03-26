@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+/* Base classes */
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+ul li{
+  list-style-type: none;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                    Font                                    */
+/* -------------------------------------------------------------------------- */
+ 
+
+.font1{
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+
+.font2{
+  font-family: 'Lobster', cursive;
+}
+
+.fsHero-1{font-size: 90px;}
+
+.rel{
+  position: relative;
+}
+
+.abso{
+  position: absolute;
+}
+
+
+/* -----------------------------------------------------------------*/
+ /* Altre classi */
+  
+    /* Padding */ 
+  .padding-top1{
+      padding-top: 500px;
+  }
+  
+  .padding-top2{
+    padding-top: 5%;
+  }
+
+  
+  .text-al1{
+    text-align: center !important;
+  }
+

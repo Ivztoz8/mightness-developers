@@ -1,0 +1,73 @@
+/* -------------------------------------------------------------------------- */
+/*                               Planets classes css                          */
+/* -------------------------------------------------------------------------- */
+  
+.planet{
+    border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      position: absolute;  
+  }
+  
+  .sun{
+      background: #d500f9;  
+      width: 100px;
+      height:100px;
+  }
+  
+  .mercury{
+    background-color: #ff5722;
+      width: 40px;
+      height: 40px;
+  }
+
+  .venus{
+    background-color: #039be5;
+      width: 40px;
+      height: 40px;
+  }
+  
+  .earth{
+    background-color: #ffea00;
+  }
+  
+  .mars{
+    background-color: #0097a7;
+  }
+
+  .jupiter{
+    background-color: #00e676;
+    width: 80px;
+    height: 80px;
+  }
+
+  .saturn{
+    background-color: #9c27b0;
+    width: 70px;
+    height: 70px;
+  }
+
+  .uranus{
+    background-color: #ff1744;
+    width: 60px;
+    height: 60px;
+  }
+
+  .neptune{
+    background-color: #ba68c8;
+    width: 60px;
+    height: 60px;
+  }
+
+  .pluto{
+    background-color: #f48fb1;
+    width: 40px;
+    height: 40px;
+  }
+
+  .nibiru {
+    background-color: #e53935;
+    width: 90px;
+    height: 90px;
+  }
+
