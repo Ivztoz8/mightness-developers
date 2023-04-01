@@ -62,7 +62,7 @@ $fr-quaternary-color: #5FBAB0;
 $sh-secondary-color: #8A44AA;
 $sh-tertiary-color: #6E298E;
 $sh-quaternary-color: #520A73;
-$m-fifth-color: #370058;
+$sh-fifth-color: #370058;
 
   /* -------------------------------------------------------------------------- */
   /*                             Bg color classes                               */
@@ -80,9 +80,9 @@ $m-fifth-color: #370058;
   .bg-tertiary-color{background-color: $m-tertiary-color;}
   
  /* -----------------------------Bg gradient----------------------------------- */
-  .bg-c-navbar{background: linear-gradient($hg-secondary-color, $m-fifth-color);}
-  .bg-c-jumbo-home{background: linear-gradient($m-fifth-color, $gf-secondary-color);}
-  .bg-c-footer{background: linear-gradient($m-secondary-color, $hg-secondary-color);}
+  .bg-c-navbar{background-color:  $sh-fifth-color;}
+  .bg-c-jumbo-home{background: linear-gradient($sh-fifth-color, $gf-secondary-color);}
+  .bg-c-footer{background: linear-gradient($sh-tertiary-color, $sh-quaternary-color);}
   
 
 
@@ -92,6 +92,10 @@ $m-fifth-color: #370058;
  
 
   .box-shadow0{
-    box-shadow: 10px 5px 20px $g-quaternary-color;
+    box-shadow: 10px 15px 20px $g-secondary-color;
+  }
+
+  .box-shadow1{
+    box-shadow: 0 5px 20px 2px $g-primary-color;
   }
   

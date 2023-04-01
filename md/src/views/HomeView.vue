@@ -1,5 +1,5 @@
 <template>
- <main class= "flex-center">
+ <main class= "flex-center bg-g-primary-color" style=" width: 100%; height: 80vh;" >
    <div>
       <div class="container-fluid position-relative">
         <div class="section" style="padding-top: 15%;">
@@ -7,19 +7,19 @@
           <div class="divider" style="margin: 5% 0;"></div>
           <div class="row">
             <div class="col s3">
-              <i class="fa-solid fa-keyboard" style="font-size: 35px; color: #4a148c;"></i>
+              <font-awesome-icon style="font-size: 35px; color: #4a148c;" icon="fa-solid fa-house"/>
               <h4>Artigianato <br> digitale</h4> 
             </div>
             <div class="col s3">
-              <i class="fa-solid fa-network-wired" style="font-size: 35px; color: #4a148c;"></i>
+              <font-awesome-icon style="font-size: 35px; color: #4a148c;" icon="fa-solid fa-house"/>
               <h4>Tecnologie <br> diversificate</h4> 
             </div>
             <div class="col s3">
-              <i class="fa-solid fa-laptop-file" style="font-size: 35px; color: #4a148c;"></i>
+              <font-awesome-icon style="font-size: 35px; color: #4a148c;" icon="fa-solid fa-house"/>
               <h4>Frontend <br> & Backend</h4>
             </div>
             <div class="col s3">
-              <i class="fa-solid fa-screwdriver-wrench" style="font-size: 35px; color: #4a148c;"></i>
+              <font-awesome-icon style="font-size: 35px; color: #4a148c;" icon="fa-solid fa-house"/>
               <h4>Manutenzione <br> prodotti</h4>
             </div>
           </div>

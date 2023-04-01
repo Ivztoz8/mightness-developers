@@ -1,7 +1,6 @@
-
-
-
-
+/* -------------------------------------------------------------------------- */
+/*                               glowning effect                              */
+/* -------------------------------------------------------------------------- */
 
 .page-wrapper {
     text-align: center;
@@ -11,9 +10,10 @@
   
   h1 {
     color: #fff;
-    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-    animation: neon1 1.5s ease-in-out infinite alternate;
+    -webkit-animation: neon1 5.5s ease-in-out infinite alternate;
+    -moz-animation: neon1 5.5s ease-in-out infinite alternate;
+    animation: neon1 5.5s ease-in-out infinite alternate;
+    transition: 3.5s;
    
   }
   
@@ -23,6 +23,7 @@
     -moz-animation: none;
     animation: none;
     filter: opacity(0.3);
+    transition: 1.5s;
   }
   
   /*glow for webkit*/

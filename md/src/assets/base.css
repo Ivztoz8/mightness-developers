@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 
+@import './tdmenu.css';
+@import './footer.css';
+@import './shakeheaddericon.css';
+
+
 /* Base classes */
 
 html{
@@ -59,3 +64,6 @@ ul li{
     text-align: center !important;
   }
 
+.b-r-10{
+  border-radius: 10px;
+}

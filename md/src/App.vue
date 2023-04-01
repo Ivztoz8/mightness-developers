@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 
+
 </script>
 
 <template>
@@ -9,33 +10,40 @@ import { RouterLink, RouterView } from 'vue-router'
       <div class="container-fluid">
         <div class="d-flex justify-content-center text-center  rounded-circle" >
           <RouterLink class="navbar-brand" to="/">
-            <img src="../public/img/md_logo_nav.png" alt="logo mightness developers" style="width: 50px; height: 50px;">
+            <img src="../public/img/md_logo_nav.png" alt="logo mightness developers" style="width: 50px; height: 50px;" class="box-shadow1 b-r-10">
           </RouterLink>
         </div>
-        <div class="d-flex row-6">
-          <div class="col ms-2">
-            <RouterLink class="text-white" to="/home">Home</RouterLink>
-          </div>
-          <div class="col ms-2">
-            <RouterLink class="text-white" to="/about">About</RouterLink>
-          </div>
-          <div class="col ms-2">
-            <RouterLink class="text-white" to="/skills">Skills</RouterLink>
-          </div>
-          <div class="col ms-2">
-            <RouterLink class="text-white" to="/projects">Projects</RouterLink>
-          </div>
-          <div class="col ms-2">
-            <RouterLink class="text-white" to="/templates">Templates</RouterLink>
-          </div>
-          <div class="col ms-2">
-            <RouterLink class="text-white" to="/donate">Donate</RouterLink>
-          </div>
-          <div class="col ms-2">
-            <RouterLink class="text-white" to="/contacts">Contacts</RouterLink>
-          </div>
+        <ul class="d-flex row-6 menu" style="font-size: 25px;">
+          <li class="col ms-2 menu_list">
+            <span class="front"><font-awesome-icon icon="fa-solid fa-house"/></span>
+            <RouterLink class="text-white side" to="/home" style="font-size: 13px;">Home</RouterLink>
+          </li>
+          <li class="col ms-2 menu_list">
+            <span class="front"><font-awesome-icon icon="fa-solid fa-address-card"/></span>
+            <RouterLink class="text-white side" to="/about" style="font-size: 13px;">About</RouterLink>
+          </li>
+          <li class="col ms-2 menu_list">
+            <span class="front"><font-awesome-icon icon="fa-solid fa-swatchbook"/></span>
+            <RouterLink class="text-white side" to="/skills" style="font-size: 13px;">Skills</RouterLink>
+          </li>
+          <li class="col ms-2 menu_list">
+            <span class="front"><font-awesome-icon icon="fa-solid fa-list-check"/></span>
+            <RouterLink class="text-white side" to="/projects" style="font-size: 13px;">Projects</RouterLink>
+          </li>
+          <li class="col ms-2 menu_list">
+            <span class="front"><font-awesome-icon icon="fa-solid fa-window-restore"/></span>
+            <RouterLink class="text-white side" to="/templates" style="font-size: 12px;">Templates</RouterLink>
+          </li>
+          <li class="col ms-2 menu_list">
+            <span class="front"><font-awesome-icon icon="fa-solid fa-circle-dollar-to-slot"/></span>
+            <RouterLink class="text-white side" to="/donate" style="font-size: 15px;">Donate</RouterLink>
+          </li>
+          <li class="col ms-2 menu_list">
+            <span class="front"><font-awesome-icon icon="fa-solid fa-address-book"/></span>
+            <RouterLink class="text-white side" to="/contacts" style="font-size: 13px;">Contacts</RouterLink>
+          </li>
 
-        </div>
+        </ul>
         
       </div>
     </nav>
@@ -43,25 +51,45 @@ import { RouterLink, RouterView } from 'vue-router'
 
   <RouterView />
 
-  <footer class="fixed-bottom bg-c-footer">
-    <div class="navbar justify-content-between ">
-      <div class="container-fluid ">
-        <div class="">
-          <RouterLink class="navbar-brand" to="/">
-            <img src="../../public/img/md_logo_footer.png" alt="Mightness developers logo" class="rounded-3" style="width: 150px; height: auto;">
-          </RouterLink>
+   <footer class="footer-sec fixed-bottom">
+    <div class="main">
+      <div class="logo row">
+        <div class="footer-header">
+          <img src="../public/img/md_logo_footer.png" class="footer_title" alt="Mightness developers footer logo">
         </div>
-        <div class="row-6">
-          <div>
-            <ul>
-              <li><a class="grey-text text-lighten-3" href="https://lotus-portfolio.netlify.app/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="width: 20px; height: 20px;"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                <path d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"/></svg>  Presentazione di Maya</a></li>
-              <li><a class="grey-text text-lighten-3" href="https://itdevportfolio.netlify.app/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" style="width: 20px; height: 20px;"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                <path d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"/></svg> Presentazione di Ivan</a></li>
-            </ul>
+      </div>
+      <div class="office row">
+        <div class="footer-header">
+          <h3>Office</h3>
+        </div>
+        <div class="office-des">
+          
+        </div>
+      </div>
+      <div class="link row">
+        <div class="footer-header">
+          <h3>Links</h3>
+        </div> 
+        <div class="link-des">
+          <a href="#" class="footer-links">Maya Site</a>
+          <a href="#" class="footer-links">Ivan Site</a>
+        </div>
+      </div>
+      <div class="newsletter row">
+        <div class="footer-header">
+          <h3>Newsletter</h3>
+        </div>
+        <div class="newsletter-des">
+          <div class="subcribe"><i class="sub-icon ri-mail-check-fill"></i>
+            <input type="mail" placeholder = "Enter Email ID" required>
+            <i class="sub-icon ri-arrow-right-line"></i>
           </div>
         </div>
       </div>
+    </div>
+    <div class="copyright">
+    <hr>
+    <p>© Copyright 2023 Mightness Developers.</p>
     </div>
   </footer>
 </template>

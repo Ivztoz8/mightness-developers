@@ -1,0 +1,43 @@
+ul.menu {
+    display: inline-block;
+    list-style-type: none;
+}
+li.menu_list {
+    height: 70px;
+    width: 70px;
+    position: relative;
+}
+li.menu_list .front,
+a.side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 71px;
+    width: 100%;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .5s ease-out;
+    cursor: pointer;
+    border-radius: 5px;
+}
+li.menu_list .front {
+    background-color:  #370058;
+    color: white;
+    transform-origin: 0 0;
+}
+a.side {
+    background-color: #FF758C;
+    color: #557492;
+    transform-origin: 0 0 85px;
+    transform: rotateX(90deg);
+}
+li.menu_list:hover a.side {
+    transform: rotateX(0deg);
+}
+li.menu_list:hover .front {
+    transform: rotateX(90deg);
+}
