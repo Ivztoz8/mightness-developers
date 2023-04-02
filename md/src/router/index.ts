@@ -47,6 +47,11 @@ const router = createRouter({
       name: 'contacts',
       component: () => import('../views/ContactsView.vue')
     },
+    {
+      path: '/privacy',
+      name: 'privacy',
+      component: () => import('../views/PrivacyPolicy.vue')
+    },
   ]
 })
 

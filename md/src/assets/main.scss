@@ -82,7 +82,8 @@ $sh-fifth-color: #370058;
  /* -----------------------------Bg gradient----------------------------------- */
   .bg-c-navbar{background-color:  $sh-fifth-color;}
   .bg-c-jumbo-home{background: linear-gradient($sh-fifth-color, $gf-secondary-color);}
-  .bg-c-footer{background: linear-gradient($sh-tertiary-color, $sh-quaternary-color);}
+  .bg-c-home{background: linear-gradient($g-primary-color, white);}
+  .bg-c-about{background: linear-gradient($sh-secondary-color, white);}
   
 
 
@@ -98,4 +99,5 @@ $sh-fifth-color: #370058;
   .box-shadow1{
     box-shadow: 0 5px 20px 2px $g-primary-color;
   }
+  
   

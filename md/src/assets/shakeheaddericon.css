@@ -1,9 +1,9 @@
-header img {
+.shake {
     /* Start the shake animation and make the animation last for 0.5 seconds */
+    -webkit-animation: shake 0.3s;
     animation: shake 0.3s;
-  
-    /* When the animation is finished, start again */
     animation-iteration-count: 5;
+    animation-delay: 10s;
   }
   
   @keyframes shake {

@@ -67,3 +67,7 @@ ul li{
 .b-r-10{
   border-radius: 10px;
 }
+
+.l-ht-2{line-height: 2;}
+
+.img-res-1{width: 45%; height: auto; border-radius: 10%;}

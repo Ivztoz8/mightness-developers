@@ -5,37 +5,33 @@ footer{
     background-image: linear-gradient(90deg,  #520A73 0%, #5A73DB 100%);
     position: relative;
     width: 100%;
-    height: 20%;
-    top:80%;
+    height: 25%;
+    top:75%;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;;
     font-size: 0.8rem;
   }
 
   .footer_title{
-    width: 22%;
+    width: 40%;
     height: auto;
-   border-radius: 20px;
-   box-shadow: 0 8px 10px 2px  #00D5FF;
+    border-radius: 20px;
+    box-shadow: 0 8px 10px 2px  #00D5FF;
+    transition: linear 1s;
   }
+
+  .footer_title:hover{
+    box-shadow: 0 16px 20px 2px  #ED60AE;
+    transition: linear 1s;
+  }
+
   .main{
     margin-left: 10%;
-    padding-top: 0.5%;
-    padding-bottom: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     display: grid;
     gap: 5px;
-    grid-template-columns: repeat(4, 1fr );
-  }
-  .row{
-   margin-top: 1%;
-  }
-  
-  .office-des{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: baseline;
-    gap: 5px;
+    grid-template-columns: repeat(5, 1fr );
   }
   
   .office a{
@@ -55,68 +51,37 @@ footer{
     display: flex;
     flex-direction: column;
     gap:5px;
+    font-size: 0.9rem;
   }
+  
+  .link-des *:hover{
+    color: #FF9D6D; 
+    transition: linear 0.3s;
+  }
+  
   .link-des a{
     color: #fff;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .link-des-1 a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  
+  .link-des-1 a:hover{
+    color: #FB2576;
+    transition: linear 0.3s;
   }
   
   .link-des a:hover{
     color: #FB2576;
     transition: linear 0.3s;
   }
-  
-  .btn-know{
-    text-decoration: none;
-    background-color: #fff;
-    padding: 10px;
-    position: relative;
-    top: 15%;
-    background-color: transparent;
-    border: 1px solid #98A8F8;
-    color: #98A8F8;
-    text-transform: uppercase;
-    border-radius:10px;
-    
-  }
-  
-  .subcribe{
-    display: flex;
-  }
-  input[type=mail]{
-    border: none;
-    padding-bottom: 5px;
-    border-bottom: 1px solid #fff;
-    background-color: transparent;
-    font-size: 0.8rem;
 
-  }
-
-input::placeholder { 
-    color: #D5CABD;
-    opacity: 1; 
-  }
-
-  .sub-icon{
-    margin: 7px;
-    margin-right: 15px;
-    margin-left: 0;
-    font-size: 1.5rem;
-  }
-  .ri-arrow-right-line{
-    margin-left: 0;
-    
-  }
- 
-  
-  
-  .newsletter-des{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-  }
-  
   .copyright{
     text-align: center;
   }
@@ -132,7 +97,30 @@ input::placeholder {
   .copyright p{
     padding: 5px;
   }
+
+  .linkt{
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+
+  linktimg:hover{
+    filter: invert(1);
+  }
+
+  .linkt:hover{
+    color: #FF9D6D; 
+    transition: linear 0.3s;
+  }
   
+  .linkt2{
+    text-decoration: none;
+  }
+
+  .linkt2:hover{
+    color: #FF9D6D; 
+    transition: linear 0.3s;
+  }
   
   
   
